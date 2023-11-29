@@ -80,7 +80,7 @@ nav a:hover {
 .backvid-2{
     position: absolute;
     bottom: 0;
-    width: 390px;
+    width: 430px;
     z-index: -100;
     filter: brightness(0.5);
     display: none;
@@ -981,7 +981,6 @@ nav #check{
   z-index: 4;
   font-size: 40px;
   color: white;
-  top: 10px;
   margin-left: 350px;
   line-height: 80px;
   list-style: none;  
@@ -1015,10 +1014,10 @@ nav #check{
       flex-direction: column;
       position: fixed;
       height:100vh;
-      width: 390px;
+      width: 430px;
       background: #8a3ab9;
       left: 0px;
-      top: -80%;
+      top: -83%;
       text-align: center;
       transition: .5s ease;
   }
@@ -1028,7 +1027,7 @@ nav #check{
       line-height: 10px;
   }
   nav ul li a{
-      font-size: 30px;
+      font-size: 20px;
       transform: translateY(-100px);
       transition: .3 ease;
   }
@@ -1050,7 +1049,7 @@ nav #check{
 @media (min-width: 330px) and (max-width: 1200px) {
   .backvid{
       width: fit-content;
-      bottom: 125px;
+      bottom: 211px;
       top: 0;
       left: 0;
     }
@@ -1082,6 +1081,10 @@ nav #check{
       .backvid-2{
         display: flex;
         bottom: 166px;
+      }
+
+      .hero-text{
+        margin-left: 20px;
       }
 
       
