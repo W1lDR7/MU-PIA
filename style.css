@@ -392,7 +392,8 @@ nav a:hover {
 
 #about .image-column .inner-column .image .overlay-box .year-box{
 	position:relative;
-	color:#252525;
+	color:#fff;
+  outline: #000 2px;
 	font-size:24px;
 	font-weight:700;
 	line-height:1.4em;
