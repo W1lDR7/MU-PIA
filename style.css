@@ -1075,18 +1075,14 @@ nav #check{
       .hero-content p{
         width: 300px;
       }
+
+      .hero-content{
+        background: #000;
+      }
       .backvid{
         display: none;
       }
-
-      .backvid-2{
-        display: flex;
-        bottom: 38px;
-      }
-
-    
-      }
-
+    }
 
 
 
